@@ -25,7 +25,7 @@ class AddInput extends Component {
           <InputGroup>
             <FormControl type="text" value={this.state.value} onChange={this.handleChange}/>
           </InputGroup>
-          <Button className="add-button" bsStyle="primary" onClick={this.onSubmit}>Add Item</Button>
+          <Button className="add-button" bsStyle="primary" type="submit">Add Item</Button>
         </FormGroup>
       </Form>
 
