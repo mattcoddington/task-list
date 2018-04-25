@@ -12,9 +12,9 @@ class AddInput extends Component {
   }
 
   onSubmit = (e) => {
+    e.preventDefault();
     console.log('You successfully added item: ' + this.state.value);
     this.props.addTaskItem(this.state.value);
-    e.preventDefault();
   }
 
   render() {
