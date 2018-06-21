@@ -18,7 +18,9 @@ class App extends Component {
 
   addTaskItem = (taskItem) => {
     this.state.taskItems.push(taskItem);
-    this.setState({taskItems: this.state.taskItems});
+    this.setState({
+      taskItems: this.state.taskItems
+    });
   }
 
   removeTaskItem = (i) => {
