@@ -8,10 +8,7 @@ class Header extends Component {
       <header>
 
         <h1>Task List</h1>
-        <p>This is just a simple task list. All it does is add some shit to a list.</p>
-
-        {/*}{this.state.taskItems}*/}
-        {/* This is just making sure state is set properly */}
+        <p>This is just a simple task list. All it does is add some stuff to a list.</p>
 
         <hr />
 
