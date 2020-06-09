@@ -2,4 +2,4 @@
 
 This is just a simple task list. All it does is add some stuff to a list.
 
-On Netlify: https://practical-jang-942686.netlify.com/
+On Netlify: https://condescending-lamarr-bac205.netlify.app
